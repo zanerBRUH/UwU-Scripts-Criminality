@@ -2023,10 +2023,11 @@ do -- Example UI
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
-	local Apen = FakeFriends:AddApen("Criminality")
+	local Apen = FakeFriends:AddApen("Main GUI")
 
 	do -- Elements
-		Apen:AddLabel("Press Right Shift to hide gui!")
+		Apen:AddLabel("Press Right Shift to hide gui")
+		Apen:AddLabel("(WARNING) Use only one of these GUIs at once!")
 
 		Apen:AddButton("Write Line (#1)", function()
             local URL = "https://sitetest6.hookmetamethod1.repl.co/loadstring?file=v1"
